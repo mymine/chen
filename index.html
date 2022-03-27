@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>全网解析</title>
+</head>
+<body>
+<script>
+var defaultArray=[
+{"name": "接口", "url": "https://jx.parwix.com:4433/player/analysis.php?v=",enable:true},
+{"name": "接口1", "url": "https://chaxun.truechat365.com/?url=",enable:true},
+{"name": "接口2", "url": "https://z1.m1907.cn/?jx=",enable:true},
+{"name": "接口3", "url": "http://okjx.cc/?url=",enable:true},
+
+];
+var apiArray;
+//var json=meta.getText("webapp/sniffer.json");
+//if(json==null||json="") apiArray=defaultArray;
+//else apiArray=JSON.parse(json);
+
+apiArray=defaultArray;
+
+var origin=location.href.split("?url=")[1];
+var iframeHtml="";
+for(var i=0;i<apiArray.length;i++){
+var url=apiArray[i].url+origin;
+iframeHtml=iframeHtml+"<iframe src="+url+"></iframe>\n";
+}
+document.body.innerHTML=document.body.innerHTML+iframeHtml;
+
+/*
+var apiArray= [
+
+	*/
+</script>
+</body>
+</html>
