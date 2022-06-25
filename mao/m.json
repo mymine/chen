@@ -1,6 +1,7 @@
 {
 "sites": [
 {"key": "csp_77","name": "七七","type": 3,"api": "csp_Kunyu77","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key":"小苹果","name":"小苹果","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":""},
 {"key":"csp_xpath___在线之家","name":"在线之家(XP)","type":3,"api":"csp_XPath"      ,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://mymine.github.io/jx/mao/xp/zxzj.json"},
 {"key":"csp_xpath_lezhutv","name":"乐猪TV(XP)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://mymine.github.io/jx/mao/xp/lezhutv.json"},
 {"key":"csp_xpath_lib","name":"LIBVIO(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://mymine.github.io/jx/mao/xp/lib.json"},
