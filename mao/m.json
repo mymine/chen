@@ -13,8 +13,8 @@
 {"key":"csp_GitCafe","name":"🦊小纸条","type":3,"api":"csp_GitCafe","searchable":1,"quickSearch":1,"filterable":0},
 {"key":"csp_n0ys","name":"💥1090影视(SP)","type":3,"api":"csp_N0ys","searchable":1,"quickSearch":1,"filterable":1,"ext":""},
 {"key":"csp_BBB","name":"🅱哔哩套餐","type":3,"api":"csp_BBB","searchable":0,"quickSearch":0,"filterable":1},
-{"key":"k歌搜歌","name":"k歌搜歌","type":1,"api":"http://jb001.eu5.org/tmp/t/u/kmkgct.php","searchable":1,"quickSearch":1,"filterable":0},
-{"key":"k歌","name":"k歌","type":1,"api":"http://jb001.eu5.org/tmp/t/u/kmkg.php","searchable":1,"quickSearch":1,"filterable":0},
+//{"key":"k歌搜歌","name":"k歌搜歌","type":1,"api":"http://jb001.eu5.org/tmp/t/u/kmkgct.php","searchable":1,"quickSearch":1,"filterable":0},
+//{"key":"k歌","name":"k歌","type":1,"api":"http://jb001.eu5.org/tmp/t/u/kmkg.php","searchable":1,"quickSearch":1,"filterable":0},
       {
 "key": "csp_xpath_94sm",
 "name": "94神马(XP)",
@@ -258,7 +258,8 @@
 "wasu",
 "bilibili"
 ],
-"spider": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-10b3891b-be67-4103-a60f-9da1d057470c/f7aacb24-dc47-458f-89c8-152206040655.jar",
+//0625"spider": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-10b3891b-be67-4103-a60f-9da1d057470c/f7aacb24-dc47-458f-89c8-152206040655.jar",
+//0627"spider": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-10b3891b-be67-4103-a60f-9da1d057470c/f2212e35-3bee-484c-b0d3-ecc5c78aca37.jar",
 "ijk": [
 {
 "group": "软解码",
