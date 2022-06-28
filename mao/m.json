@@ -8,13 +8,14 @@
 			"quickSearch": 1,
 			"filterable": 1,
                         "ext": "http://api.kunyu77.com/api.php/provide/vod/"
-		}, {
+		},
+                {
 			"key": "csp_appys_8090",
 			"name": "8090资源",
 			"type": 1,
 			"api": "csp_AppYsV2",
 			"searchable": 1,
-			"quickSearch": 1
+			"quickSearch": 1,
                         "ext": "http://zy.yilans.net:8090/api.php/provide/vod/"
 		},
 		{
