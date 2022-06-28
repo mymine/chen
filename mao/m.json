@@ -10,16 +10,16 @@
             "filterable": 1
         },
         {
-            "key": "糖果资源",
-            "name": "糖果资源",
+            "key": "困云视频",
+            "name": "困云视频",
             "type": 1,
-            "api": "http://api.kunyu77.com/api.php/provide/vod/",
+            "api": "http://api.kunyu77.com/api.php/provide/",
             "searchable": 1,
             "quickSearch": 1
         },
         {
-            "key": "八零九零",
-            "name": "八零九零",
+            "key": "糖果资源",
+            "name": "糖果资源",
             "type": 1,
             "api": "http://vip-02.tgzy.cc/api.php/provide/vod/",
             "playUrl": "",
