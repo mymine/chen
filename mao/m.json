@@ -10,13 +10,12 @@
             "filterable": 1
         },
         {
-            "key": "csp_appysv2_tgzy",
+            "key": "糖果资源",
             "name": "糖果资源",
             "type": 1,
-            "api": "csp_AppYsV2",
+            "api": "http://api.kunyu77.com/api.php/provide/vod/",
             "searchable": 1,
-            "quickSearch": 1,
-            "ext": "http://vip-02.tgzy.cc/api.php/provide/vod/"
+            "quickSearch": 1
         },
         {
             "key": "八零九零",
