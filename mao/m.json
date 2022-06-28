@@ -1,22 +1,20 @@
 {
 	"sites": [{
-			"key": "csp_appysv2_77",
+			"key": "csp_77",
 			"name": "酷云七七",
+			"type": 3,
+			"api": "csp_Kunyu77",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
+		}, {
+			"key": "csp_appysv2_tgzy",
+			"name": "糖果资源",
 			"type": 1,
 			"api": "csp_AppYsV2",
 			"searchable": 1,
 			"quickSearch": 1,
-			"filterable": 1,
-                        "ext": "http://api.kunyu77.com/api.php/provide/vod/"
-		},
-                {
-			"key": "csp_appysv2_8090",
-			"name": "8090资源",
-			"type": 1,
-			"api": "csp_AppYsV2",
-			"searchable": 1,
-			"quickSearch": 1,
-                        "ext": "http://zy.yilans.net:8090/api.php/provide/vod/"
+			"ext": "http://vip-02.tgzy.cc/api.php/provide/vod/"
 		},
 		{
 			"key": "csp_xpath___在线之家",
