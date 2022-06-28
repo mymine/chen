@@ -12,7 +12,7 @@
 			"key": "困云视频",
 			"name": "困云视频",
 			"type": 1,
-			"api": "http://api.kunyu77.com/api.php/provide/",
+			"api": "http://api.kunyu77.com/api.php/provide/searchFilter",
 			"searchable": 1,
 			"quickSearch": 1
 		},
