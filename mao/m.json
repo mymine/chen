@@ -3,8 +3,8 @@
         {
             "key": "csp_77",
             "name": "七七",
-            "type": 3,
-            "api": "csp_Kunyu77",
+            "type": 1,
+            "api": "http://api.kunyu77.com/api.php/provide/",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
