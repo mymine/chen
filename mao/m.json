@@ -17,15 +17,6 @@
 			"filterable": 1
 		},
 		{
-			"key": "七七视频",
-			"name": "七七视频",
-			"type": 1,
-			"api": "http://api.kunyu77.com/api.php",
-                        "playUrl": "",
-			"searchable": 1,
-			"quickSearch": 1
-		},
-		{
 			"key": "糖果资源",
 			"name": "糖果资源",
 			"type": 1,
@@ -180,8 +171,7 @@
 		"channels": [{
 			"name": "redirect",
 			"urls": [
-				"proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZmFzdGdpdC5vcmcvbXltaW5lL2p4L21haW4vbGl2ZS9teXR2LnR4dA==
-"
+				"proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZmFzdGdpdC5vcmcvbXltaW5lL2p4L21haW4vbGl2ZS9teXR2LnR4dA=="
 			]
 		}]
 	}],
