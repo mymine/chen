@@ -8,7 +8,7 @@
         {
           "name": "live",
           "urls": [
-            "proxy://do=live&type=txt&ext=https://mymine.github.io/jx/tvbox/live.txt"
+            "proxy://do=live&type=txt&ext=https://raw.fastgit.org/mymine/jx/main/live/mytv.txt"
           ]
         }
       ]
