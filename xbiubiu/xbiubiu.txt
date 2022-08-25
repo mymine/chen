@@ -46,7 +46,8 @@
 
 //主解析是JSON直链格式的解析
 "zhujiexi":[
-{"name":"解析1","url":"https://api.cygc.xyz/analysis/?url="}
+{"name":"解析1","url":"https://api.cygc.xyz/analysis/?url="}，
+{"name":"解析2","url":"http://123.56.222.84:2025/iphone/100.php?url="}
 ],
 
 //备用解析是常规格式的解析
