@@ -16,7 +16,17 @@
 {"name":"爱电影","url":"https://www.idianying.com.cn/mogai_api.php/v1.vod"},
 {"name":"U5影视","url":"https://appx.uy07.com/api.php/v1.vod"},
 {"name":"OK影视","url":"http://123.ok00.xyz/api.php/v1.vod"},
-{"name":"月儿影视","url":"https://yue52.xyz/api.php/v1.vod"}
+{"name":"月儿影视","url":"https://yue52.xyz/api.php/v1.vod"},
+{"name":"优众影视","url":"http://121.205.88.194:7878/xgapp.php/v2/"},
+{"name":"独播影视","url":"http://35ys.cc/api.php/v1.vod"},
+{"name":"暖光影视","url":"https://app.bl210.com/api.php/v1.vod"},
+{"name":"淘剧影视","url":"http://app.shuhai99.com/api.php/v1.vod"},
+{"name":"天天影视","url":"http://app.qianju.cc/api.php/v1.vod"},
+{"name":"趣看影视","url":"http://qkmp4.cn/api.php/provide/vod/"},
+{"name":"天堂资源","url":"http://vipmv.cc/api.php/provide/vod/"},
+{"name":"飘花影视","url":"http://www.zzrhgg.com/api.php/provide/vod/"},
+{"name":"段友影视","url":"https://shangjihuoke.com/api.php/v1.vod"},
+{"name":"益达影视","url":"http://luobu.yss6080.com/mogai_api.php/v1.vod"},
 ],
 
 //填写采集接口
