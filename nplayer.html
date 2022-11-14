@@ -1,0 +1,20 @@
+<html>
+  <script src="https://unpkg.com/nplayer@latest/dist/index.min.js"></script>
+  import Player from "nplayer";
+
+/**
+ * Danmaku DEMO:
+ *    https://codesandbox.io/s/nplayer-demo-ujtms?file=/src/index.js
+ * React DEMO:
+ *    https://codesandbox.io/s/nplayer-react-demo-p558g?file=/src/App.js
+ * Vue2 DEMO:
+ *    https://codesandbox.io/s/nplayer-vue2-demo-9lps9?file=/src/main.js
+ * Vue3 DEMO:
+ *    https://codesandbox.io/s/nplayer-vue3-demo-mt8s4?file=/src/main.js
+ */
+const player = new Player({
+  src: "https://v-cdn.zjol.com.cn/280443.mp4"
+});
+
+player.mount(document.body);
+ </html>
