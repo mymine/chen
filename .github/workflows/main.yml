@@ -28,7 +28,7 @@ jobs:
     - name: Clone project
       run: |
         git clone --depth=1 https://github.com/mymine/tv.git Projects
-        cp Projects/live/*    
+        cp -rf Projects/live/* ./live
 
         
     - name: Update files github
