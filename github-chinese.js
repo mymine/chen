@@ -9,7 +9,7 @@
 // @license      GPL-3.0
 // @match        https://github.com/*
 // @match        https://gist.github.com/*
-// @require      https://ghproxy.com/https://raw.githubusercontent.com/maboloshi/github-chinese/gh-pages/locals.js?v1.8.5
+// @require      https://ghproxy.net/https://raw.githubusercontent.com/maboloshi/github-chinese/gh-pages/locals.js?v1.8.5
 // @run-at       document-end
 // @grant        GM_xmlhttpRequest
 // @grant        GM_getValue
