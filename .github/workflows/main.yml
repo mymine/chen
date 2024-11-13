@@ -28,7 +28,7 @@ jobs:
     - name: Clone project
       run: |
         rm -rf ariang
-        git clone --depth=1 https://github.com/mayswind/AriaNg ariang
+        git clone --depth=1 https://github.com/mayswind/AriaNg-DailyBuild ariang
               
     - name: Update files github
       uses: EndBug/add-and-commit@v9
