@@ -32,7 +32,7 @@ jobs:
         git clone --depth=1 https://github.com/mayswind/AriaNg-DailyBuild ariang
         sed -i 's/isInsecureProtocolDisabled:/aria:/g' ariang/js/aria*.js
         #sed -i 's/ng-disabled="::/ng-disableds="::/g' ariang/js/aria*.js   
-        #sed -i "s/context\.isInsecureProtocolDisabled//g" ariang/js/aria*.js
+        sed -i "s/context\.isInsecureProtocolDisabled//g" ariang/js/aria*.js
         
     - name: Update files github
       uses: EndBug/add-and-commit@v9
