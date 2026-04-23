@@ -58,7 +58,7 @@ def upload_file(file_dir, folder_id):
         "task": "1",
         "vie": "2",
         "ve": "2",
-        "folder_id": f'{folder_id}',
+        "folder_id_bb_n": '{folder_id}',
         "id": "WU_FILE_0",
         "name": file_name,
     }
