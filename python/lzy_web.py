@@ -13,7 +13,7 @@ cookie_ylogin = os.environ.get('ylogin')
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45',
     'Accept-Language': 'zh-CN,zh;q=0.9',
-    'Referer': 'https://pc.woozooo.com/account.php?action=login'
+    'Referer': 'https://accounts.woozooo.com/accounts.php?action=login&ref=pc.woozooo.com'
 }
 
 # 小饼干
@@ -32,7 +32,7 @@ def log(msg):
 
 # 检查是否已登录
 def login_by_cookie():
-    url_account = "https://pc.woozooo.com/account.php"
+    url_account = "https://accounts.woozooo.com/accounts.php"
     if cookie['phpdisk_info'] is None:
         log('ERROR: 请指定 Cookie 中 phpdisk_info 的值！')
         return False
