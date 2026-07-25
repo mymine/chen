@@ -53,14 +53,14 @@ def upload_file(file_dir, folder_id):
     file_name = os.path.basename(file_dir)
     #url_upload = "https://up.woozooo.com/fileup.php"
     url_upload = "https://pc.woozooo.com/html5up.php"
-    headers['Referer'] = f'https://up.woozooo.com/mydisk.php?item=files&action=index&u={cookie_ylogin}'
+    headers['Referer'] = f'https://pc.woozooo.com/mydisk.php?item=files&action=index&u={cookie_ylogin}'
     post_data = {
-        "task": "1",
-        "vie": "2",
-        "ve": "2",
-        "folder_id_bb_n": '{folder_id}',
-        "id": "WU_FILE_0",
-        "name": file_name,
+        'task': '1',
+        'vie': '2',
+        've': '2',
+        'id': 'WU_FILE_2',
+        "name": '{file_name}',
+        "folder_id_bb_n": folder_id,
     }
     files = {'upload_file': (file_name, open(file_dir, "rb"), 'application/octet-stream')}
 
@@ -81,7 +81,7 @@ def upload_file(file_dir, folder_id):
                 retry_time += 1
                 time.sleep(2)
         except Exception as e:
-            log(f'第{retry_time+1}次请求异常: {e}')
+            log(f'第{retry_tim+1}次请求异常: {e}')
             retry_time += 1
             time.sleep(2)
 
