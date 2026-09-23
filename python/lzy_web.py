@@ -1,9 +1,9 @@
-#import requests, os, datetime, sys, time
 import os
 import datetime
 import sys
 import time
 import requests
+
 # Cookie 中 phpdisk_info 的值
 cookie_phpdisk_info = os.environ.get('phpdisk_info')
 # Cookie 中 ylogin 的值
@@ -25,8 +25,9 @@ cookie = {
 
 # 日志打印
 def log(msg):
-    utc_time = datetime.datetime.utcnow()
-    china_time = utc_time + datetime.timedelta(hours=8)
+    # ✅ 修复 1：使用 timezone-aware 的方式获取北京时间 (UTC+8)，消除弃用警告
+    tz_cn = datetime.timezone(datetime.timedelta(hours=8))
+    china_time = datetime.datetime.now(tz_cn)
     print(f"[{china_time.strftime('%Y.%m.%d %H:%M:%S')}] {msg}")
 
 
@@ -51,7 +52,6 @@ def login_by_cookie():
 # 上传文件
 def upload_file(file_dir, folder_id):
     file_name = os.path.basename(file_dir)
-    #url_upload = "https://up.woozooo.com/fileup.php"
     url_upload = "https://pc.woozooo.com/html5up.php"
     headers['Referer'] = f'https://pc.woozooo.com/mydisk.php?item=files&action=index&u={cookie_ylogin}'
     post_data = {
@@ -81,7 +81,8 @@ def upload_file(file_dir, folder_id):
                 retry_time += 1
                 time.sleep(2)
         except Exception as e:
-            log(f'第{retry_tim+1}次请求异常: {e}')
+            # ✅ 修复 2：修正了原代码中的拼写错误 retry_tim -> retry_time
+            log(f'第{retry_time+1}次请求异常: {e}')
             retry_time += 1
             time.sleep(2)
 
@@ -115,6 +116,7 @@ if __name__ == '__main__':
     argv = sys.argv[1:]
     if len(argv) != 2:
         log('ERROR: 参数错误,请以这种格式重新尝试\npython lzy_web.py 需上传的路径 蓝奏云文件夹id')
+        sys.exit(1)  # 补充：参数错误时直接退出，避免后续执行报错
     # 需上传的路径
     upload_path = argv[0]
     # 蓝奏云文件夹id
